@@ -18,4 +18,4 @@ Intents are stored under the `Intents` class in [`main.py`](main.py), so that su
 
 ### Install / Usage
 
-To run the project locally, the nltk package must be present. You can download via pip with `pip install -r requirements.txt` from the root directory. To talk with the chatbot, type in the command line after the prompts `>>`.
+To run the project locally, the NLTK package must be present. You can download via pip with `pip install -r requirements.txt` from the root directory. To talk with the chatbot, type in the command line after the prompts `>>`.
