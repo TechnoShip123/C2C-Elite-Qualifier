@@ -41,7 +41,7 @@ random_response_list: list = [
 class Intents:
     creation_date: date = date(2021, 12, 13)
     name: str = "EliteBot"
-    age: int = (creation_date - date.today()).days
+    age: int = (date.today() - creation_date).days
 
     intents: list = [
         # Functional intents
