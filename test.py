@@ -17,7 +17,7 @@ class TestChatBot(unittest.TestCase):
         print(f"Name is {Intents.name} and type {type(Intents.name)}.")
         self.assertEqual(type(Intents.name), str)
     
-    def test_perf(self):
+    def test_performance(self):
         """
         Tests that the bot can complete 1000 responses in under 10 seconds.
         """
