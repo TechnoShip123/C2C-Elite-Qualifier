@@ -14,7 +14,7 @@ My project for the C2C Elite Qualifier. This is my chatbot named **`EliteBot`**,
 
 ### Explanation
 
-Intents are stored under the `Intents` class in [`main.py`](main.py), so that supporting variables such as the bot's name can be grouped with it. The main program makes use of the NLTK `Chat.converse()` function, which handles user input and quit keywords for us. The `reflections` dictionary contains mappings between first-person and second-person expressions. The reflections dictionary used in this project was adapted from `nltk.chat.util.reflections`.
+Intents are stored under the `Intents` class in [`main.py`](main.py), so that supporting variables such as the bot's name can be grouped with it. The main program adapts the NLTK `Chat.converse()` function, and customizes parts such as the quit keyword. The `reflections` dictionary contains mappings between first-person and second-person expressions. The reflections dictionary used in this project was adapted from `nltk.chat.util.reflections`.
 
 ### Install / Usage
 
